@@ -1,0 +1,956 @@
+{
+  "jquery": {
+    "url": "lib/jquery-3.3.1.min.js",
+    "loader": "script"
+  },
+  "vue": {
+    "url": "lib/vue-2.5.11.js",
+    "loader": "script"
+  },
+  "vue-config": {
+    "url": "vue-config.js",
+    "loader": "script"
+  },
+  "turf": {
+    "url": "https://npmcdn.com/@turf/turf/turf.min.js",
+    "loader": "script"
+  },
+  "util": {
+    "url": "util.js",
+    "loader": "script"
+  },
+  "event": {
+    "url": "event.js",
+    "loader": "script"
+  },
+  "viewer": {
+    "url": "viewer.js",
+    "loader": "script"
+  },
+  "tool": {
+    "url": "tool.js",
+    "loader": "script"
+  },
+  "feature-set": {
+    "url": "feature-set.js",
+    "loader": "script"
+  },
+  "smk-map": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "smk-map.js",
+        "loader": "script"
+      },
+      {
+        "url": "smk-map-frame.css",
+        "loader": "style"
+      }
+    ]
+  },
+  "layer": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "layer/layer-esri-dynamic.js",
+        "loader": "script"
+      },
+      {
+        "url": "layer/layer-vector.js",
+        "loader": "script"
+      },
+      {
+        "url": "layer/layer-wms.js",
+        "loader": "script"
+      },
+      {
+        "url": "layer/layer.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "query": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "query/query-esri-dynamic.js",
+        "loader": "script"
+      },
+      {
+        "url": "query/query-vector.js",
+        "loader": "script"
+      },
+      {
+        "url": "query/query-wms.js",
+        "loader": "script"
+      },
+      {
+        "url": "query/query.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "surround": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "surround/header.html",
+        "loader": "template"
+      },
+      {
+        "url": "surround/surround.css",
+        "loader": "style"
+      },
+      {
+        "url": "surround/surround.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "material-icons": {
+    "url": "https://fonts.googleapis.com/icon?family=Material+Icons",
+    "loader": "style"
+  },
+  "toolbar": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "toolbar/toolbar.css",
+        "loader": "style"
+      },
+      {
+        "url": "toolbar/toolbar.html",
+        "loader": "template"
+      },
+      {
+        "url": "toolbar/toolbar.js",
+        "loader": "script"
+      },
+      "material-icons"
+    ]
+  },
+  "sidepanel": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "sidepanel/panel.html",
+        "loader": "template"
+      },
+      {
+        "url": "sidepanel/sidepanel.css",
+        "loader": "style"
+      },
+      {
+        "url": "sidepanel/sidepanel.html",
+        "loader": "template"
+      },
+      {
+        "url": "sidepanel/sidepanel.js",
+        "loader": "script"
+      },
+      "material-icons"
+    ]
+  },
+  "widgets": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "widgets/tool-button.html",
+        "loader": "template"
+      },
+      {
+        "url": "widgets/widgets.css",
+        "loader": "style"
+      },
+      {
+        "url": "widgets/widgets.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "menu": {
+    "loader": "group",
+    "tags": []
+  },
+  "feature-list": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "feature-list/feature-attributes.html",
+        "loader": "template"
+      },
+      {
+        "url": "feature-list/feature-description.html",
+        "loader": "template"
+      },
+      {
+        "url": "feature-list/feature-list.js",
+        "loader": "script"
+      },
+      {
+        "url": "feature-list/feature-properties.html",
+        "loader": "template"
+      },
+      {
+        "url": "feature-list/panel-feature-list.css",
+        "loader": "style"
+      },
+      {
+        "url": "feature-list/panel-feature-list.html",
+        "loader": "template"
+      },
+      {
+        "url": "feature-list/popup-feature.css",
+        "loader": "style"
+      },
+      {
+        "url": "feature-list/popup-feature.html",
+        "loader": "template"
+      }
+    ]
+  },
+  "tool-menu": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/menu/menu.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/menu/panel-menu.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/menu/tool-menu.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-about": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/about/panel-about.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/about/tool-about.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/about/tool-about.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-baseMaps": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/baseMaps/panel-base-maps.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/baseMaps/tool-base-maps.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/baseMaps/tool-baseMaps.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-coordinate": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/coordinate/coordinate.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/coordinate/tool-coordinate.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/coordinate/tool-coordinate.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "check-directions": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "//cdn.jsdelivr.net/npm/sortablejs@1.7.0/Sortable.min.js",
+        "loader": "script"
+      },
+      {
+        "url": "//cdnjs.cloudflare.com/ajax/libs/Vue.Draggable/2.16.0/vuedraggable.min.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-directions": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/directions/address-search.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/directions/address-search.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/directions/panel-directions.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/directions/popup-directions.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/directions/tool-directions.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/directions/tool-directions.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-dropdown": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/dropdown/dropdown.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/dropdown/panel-dropdown.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/dropdown/tool-dropdown.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-layers": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/layers/panel-layers.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/layers/tool-layers.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/layers/tool-layers.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-location": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/location/popup-location.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/location/tool-location.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/location/tool-location.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-identify": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/identify/panel-identify.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/identify/tool-identify.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-markup": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/markup/tool-markup.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-measure": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/measure/panel-measure.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/measure/tool-measure.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/measure/tool-measure.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-minimap": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/minimap/tool-minimap.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-pan": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/pan/tool-pan.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-queries": {
+    "loader": "group",
+    "tags": []
+  },
+  "tool-query": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/query/panel-query.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/query/parameter-constant.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/query/parameter-input.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/query/parameter-select.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/query/tool-query.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/query/tool-query.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-scale": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/scale/scale.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/scale/tool-scale.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/scale/tool-scale.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-search": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/search/panel-search.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/search/popup-search.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/search/tool-search.css",
+        "loader": "style"
+      },
+      {
+        "url": "tool/search/tool-search.js",
+        "loader": "script"
+      },
+      {
+        "url": "tool/search/widget-search.html",
+        "loader": "template"
+      }
+    ]
+  },
+  "tool-select": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/select/panel-select.html",
+        "loader": "template"
+      },
+      {
+        "url": "tool/select/tool-select.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-zoom": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "tool/zoom/tool-zoom.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-pan-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/tool/pan/tool-pan-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-zoom-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/tool/zoom/tool-zoom-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-measure-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/tool/measure/leaflet-measure.css",
+        "loader": "style"
+      },
+      {
+        "url": "viewer-leaflet/tool/measure/leaflet-measure.min.js",
+        "loader": "script"
+      },
+      {
+        "url": "viewer-leaflet/tool/measure/tool-measure-leaflet.css",
+        "loader": "style"
+      },
+      {
+        "url": "viewer-leaflet/tool/measure/tool-measure-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-scale-leaflet": {
+    "loader": "group",
+    "tags": []
+  },
+  "tool-coordinate-leaflet": {
+    "loader": "group",
+    "tags": []
+  },
+  "tool-directions-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/tool/directions/tool-directions-leaflet.css",
+        "loader": "style"
+      },
+      {
+        "url": "viewer-leaflet/tool/directions/tool-directions-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-location-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/tool/location/tool-location-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-minimap-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/tool/minimap/Control.MiniMap.min.css",
+        "loader": "style"
+      },
+      {
+        "url": "viewer-leaflet/tool/minimap/Control.MiniMap.min.js",
+        "loader": "script"
+      },
+      {
+        "url": "viewer-leaflet/tool/minimap/tool-minimap-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-markup-leaflet": {
+    "loader": "sequence",
+    "tags": [
+      {
+        "url": "viewer-leaflet/tool/markup/tool-markup-leaflet.js",
+        "loader": "script"
+      },
+      {
+        "url": "https://unpkg.com/leaflet.pm@0.17.3/dist/leaflet.pm.css",
+        "loader": "style"
+      },
+      {
+        "url": "https://unpkg.com/leaflet.pm@0.17.3/dist/leaflet.pm.min.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-queries-leaflet": {
+    "loader": "group",
+    "tags": []
+  },
+  "tool-query-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/tool/query/tool-query-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-identify-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/tool/identify/tool-identify-leaflet.css",
+        "loader": "style"
+      },
+      {
+        "url": "viewer-leaflet/tool/identify/tool-identify-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-select-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/tool/select/tool-select-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-search-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/tool/search/tool-search-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "layer-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/layer/layer-esri-dynamic-leaflet.js",
+        "loader": "script"
+      },
+      {
+        "url": "viewer-leaflet/layer/layer-vector-leaflet.js",
+        "loader": "script"
+      },
+      {
+        "url": "viewer-leaflet/layer/layer-wms-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "feature-list-leaflet": {
+    "url": "viewer-leaflet/feature-list-leaflet.js",
+    "loader": "script"
+  },
+  "feature-list-clustering-leaflet": {
+    "url": "viewer-leaflet/feature-list-clustering-leaflet.js",
+    "loader": "script"
+  },
+  "viewer-leaflet": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-leaflet/viewer-leaflet.js",
+        "loader": "script"
+      },
+      {
+        "url": "viewer-leaflet/viewer-leaflet.css",
+        "loader": "style"
+      }
+    ]
+  },
+  "leaflet": {
+    "loader": "sequence",
+    "tags": [
+      {
+        "integrity": "sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==",
+        "url": "https://unpkg.com/leaflet@1.2.0/dist/leaflet.js",
+        "loader": "script"
+      },
+      {
+        "integrity": "sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==",
+        "url": "https://unpkg.com/leaflet@1.2.0/dist/leaflet.css",
+        "loader": "style"
+      },
+      {
+        "integrity": "sha512-Tojl3UMd387f6DdAJlo+fKfJZiP55fYT+6Y58yKbHydnueOdSFOxrgLPuUxm7VW1szEt3hZVwv3V2sSUCuT35w==",
+        "url": "https://unpkg.com/esri-leaflet@2.1.0/dist/esri-leaflet.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "leaflet-extensions": {
+    "loader": "sequence",
+    "tags": [
+      "leaflet",
+      {
+        "url": "lib/NonTiledLayer-src.js",
+        "loader": "script"
+      },
+      {
+        "url": "https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js",
+        "loader": "script"
+      },
+      {
+        "url": "https://unpkg.com/terraformer@1.0.7",
+        "loader": "script"
+      },
+      {
+        "url": "https://unpkg.com/terraformer-arcgis-parser@1.0.5",
+        "loader": "script"
+      },
+      {
+        "url": "https://unpkg.com/terraformer-wkt-parser@1.1.2",
+        "loader": "script"
+      },
+      {
+        "url": "https://unpkg.com/leaflet.markercluster@1.0.6/dist/MarkerCluster.css",
+        "loader": "style"
+      },
+      {
+        "url": "https://unpkg.com/leaflet.markercluster@1.0.6/dist/MarkerCluster.Default.css",
+        "loader": "style"
+      },
+      {
+        "url": "https://unpkg.com/leaflet.markercluster@1.0.6/dist/leaflet.markercluster-src.js",
+        "loader": "script"
+      },
+      {
+        "url": "lib/leaflet-heat.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-coordinate-esri3d": {
+    "loader": "group",
+    "tags": []
+  },
+  "tool-directions-esri3d": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-esri3d/tool/directions/tool-directions-esri3d.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-identify-esri3d": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-esri3d/tool/identify/tool-identify-esri3d.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-markup-esri3d": {
+    "loader": "group",
+    "tags": []
+  },
+  "tool-location-esri3d": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-esri3d/tool/location/tool-location-esri3d.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-measure-esri3d": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-esri3d/tool/measure/tool-measure-esri3d.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-minimap-esri3d": {
+    "loader": "group",
+    "tags": []
+  },
+  "tool-pan-esri3d": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-esri3d/tool/pan/tool-pan-esri3d.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-query-esri3d": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-esri3d/tool/query/tool-query-esri3d.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-scale-esri3d": {
+    "loader": "group",
+    "tags": []
+  },
+  "tool-search-esri3d": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-esri3d/tool/search/tool-search-esri3d.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-select-esri3d": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-esri3d/tool/select/tool-select-esri3d.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "tool-zoom-esri3d": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-esri3d/tool/zoom/tool-zoom-esri3d.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "layer-esri3d": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-esri3d/layer/layer-esri-dynamic-esri3d.js",
+        "loader": "script"
+      },
+      {
+        "url": "viewer-esri3d/layer/layer-vector-esri3d.js",
+        "loader": "script"
+      },
+      {
+        "url": "viewer-esri3d/layer/layer-wms-esri3d.js",
+        "loader": "script"
+      }
+    ]
+  },
+  "types-esri3d": {
+    "url": "viewer-esri3d/types-esri3d.js",
+    "loader": "script"
+  },
+  "util-esri3d": {
+    "url": "viewer-esri3d/util-esri3d.js",
+    "loader": "script"
+  },
+  "viewer-esri3d": {
+    "loader": "group",
+    "tags": [
+      {
+        "url": "viewer-esri3d/viewer-esri3d.js",
+        "loader": "script"
+      },
+      {
+        "url": "viewer-esri3d/viewer-esri3d.css",
+        "loader": "style"
+      }
+    ]
+  },
+  "feature-list-esri3d": {
+    "url": "viewer-esri3d/feature-list-esri3d.js",
+    "loader": "script"
+  },
+  "esri3d": {
+    "loader": "sequence",
+    "tags": [
+      "leaflet",
+      {
+        "url": "https://js.arcgis.com/4.7/esri/css/main.css",
+        "loader": "style"
+      },
+      {
+        "url": "https://js.arcgis.com/4.7/",
+        "loader": "script"
+      },
+      {
+        "url": "lib/toGeoJSON.js",
+        "loader": "script"
+      },
+      {
+        "url": "https://unpkg.com/terraformer@1.0.7",
+        "loader": "script"
+      },
+      {
+        "url": "https://unpkg.com/terraformer-arcgis-parser@1.0.5",
+        "loader": "script"
+      },
+      {
+        "url": "https://unpkg.com/terraformer-wkt-parser@1.1.2",
+        "loader": "script"
+      }
+    ]
+  },
+  "proj4": {
+    "loader": "sequence",
+    "tags": [
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js",
+        "loader": "script"
+      },
+      {
+        "url": "projections.js",
+        "loader": "script"
+      }
+    ]
+  }
+}
